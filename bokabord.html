@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Boka bord</title>
+
+<!-- Ram/ boarder runt boka bord -->
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;}
+  </style> 
+  <!-- Slut på ram/ boarder runt boka bord -->
+
+<link rel="stylesheet" href="style.css" /> 
+
+<!-- Länkar till textstil och symboler -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Parisienne&family=Permanent+Marker&family=Quicksand:wght@300;400&display=swap"
+  rel="stylesheet"/>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://kit.fontawesome.com/aa0695c33d.js" crossorigin="anonymous"></script> 
+
+</head>
+
+<header class="header">
+    <a id="header2" href="index.html">Delicious Café</a>
+    <h2 id="adress">Adress: Cafegatan 1, Stockholm</h2>
+  </header> 
+  <!-- Slut på header -->
+
+  <div class="topnav">
+    <nav>
+      <a href="">Meny</a>
+      <a href="bokabord.html">Boka bord</a>
+      <a href="">Om oss</a>
+    </nav>
+  </div>
+  <!-- Slut på menuval/ navigation -->
+
+<section>
+
+<div class="bokabord-parent"> <!-- Container Parent -->
+
+    <div class="child1"> <!-- Child 1 -->
+
+    <div class="bokabord-rubrik">
+
+        <h2>Boka bord</h2>
+    
+        <p>Är ni 11 personer eller fler? Tveka inte att höra av er på mail eller telefon. </p>
+        <p>Tel: +46 100 000 00</p>
+        <a href="deliciouscafe@info.se">deliciouscafe@info.se</a>
+    </div>
+
+<br><br>
+
+    <fieldset> <!-- Här börjar formuläret för att boka bord -->
+
+  <legend> Boka bord</legend>
+<br>
+  <form> 
+    
+    <label for="date">Datum</label>
+<br>
+    <input type="date" name="date" id="date" min="2022-01-21" value="ÅÅÅÅ-MM-DD">
+<br><br>
+    
+    <label for="fname">Förnamn:</label>
+<br />
+    <input type="text" id="fname" name="fname" value="Förnamn" />
+<br/><br>
+   
+    <label for="lname">Efternamn:</label><br />
+    <input type="text" id="lname" name="lname" value="Efternamn" />
+<br /><br />
+   
+    <label for="mail">Mail:</label>
+<br />
+    <input type="text" id="mail" name="mail" value="Mail" />
+<br /><br />
+    
+    <label for="nummer">Telefonnummer:</label>
+<br/>
+    <input type="nummer" id="nummer" name="lname" value="Telefonnummer" />
+<br /><br />
+
+        <label for="antal">Antal personer:</label> <!-- Drop down ruta-->
+        <select id="antal" name="antal">
+          <option value="ett">1</option>
+          <option value="två">2</option>
+          <option value="tre">3</option>
+          <option value="fyra">4</option>
+          <option value="fem">5</option>
+          <option value="sex">6</option>
+          <option value="sju">7</option>
+          <option value="åtta">8</option>
+          <option value="nio">9</option>
+          <option value="tio">10</option>
+        </select>
+<br><br>    
+        <!-- Textruta -->
+        <label for=”textBody”>Övrigt vi bör känna till?</label> <br /> 
+        <textarea name=”txtBody” id=”textBody” cols=”50” rows=”10”> </textarea>
+<br><br>
+        <input type="submit">
+        <br><br>
+    </form>
+    </fieldset>
+</div> <!-- Slut på child 1 -->
+
+    <div class="child2"> <!-- Child 2 med bild -->
+
+        <img src="img/rukocafe.jpg" alt=""> 
+
+    </div> <!-- Slut på child 2 -->
+
+</div> <!-- Slut på Container Parent -->
+
+</section>
+
+
+<footer> <!-- Footer start -->
+    <div class="footer"> <!-- Container parent -->
+
+        <div class="foot-child1"> 
+         <h3>Kontakt</h3>
+         <p>Cafegatan 1, 110 00, Stockholm</p>
+         <p>Tel: +46 100 000 00</p>
+         <a href="deliciouscafe@info.se">deliciouscafe@info.se</a>
+         <p>Instagram</p><i class="fab fa-instagram"></i>
+         <p>facebook</p><i class="fab fa-facebook"></i>
+        </div>
+
+        <div class="foot-child2">
+          <i style="font-size:24px" class="fa">&#xf1f9;</i>
+          Delicious Café
+        </div>
+
+        <div class="foot-child3">
+          <h3>Öppettider</h3>
+          <p>Mondag - Fredag: 08.00 - 17.00</p>
+          <p>Lördag: 10:00 – 16.00</p>
+          <p>Söndag: Stängt</p>
+        </div>
+
+    </div> <!-- Slut på Container Parent -->
+
+</footer> <!-- Slut på footer -->
+</body>
+
+</html>
