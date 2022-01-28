@@ -199,26 +199,35 @@ align-self: 100%;
         font-size: 50px;
     }
 
+    #header2{ /* Header för sidan boka bord */
+        font-size: 50px;
+    }
+
     .topnav a{
         font-size: 30px;
+        padding: 30px;
     }
 
     .content{
         flex-direction: column;
         text-align: center;
     }
+
+    .bokabord-parent{
+        display: flex;  
+       flex-direction: column;
+    
+    }
+
     .footer{
         flex-direction: column;
         text-align: center;
+        padding: 10px;
     }
+
     .foot-child2{
-        flex: 1; 
-        color:rgb(36, 36, 206);
-        background-color:rgb(80, 190, 157);
-        text-align: center;
-        display: flex; justify-content: center; align-items: center; height: 200px;
+        padding: 20px;
     }
-    
 }
 
 @media (max-width:600px) {
@@ -226,11 +235,12 @@ align-self: 100%;
         flex: 50%;
     }
     h1{
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .topnav a{
         font-size: 15px;
+        padding: 10px;
     }
     .content{
         flex-direction: column;
@@ -240,6 +250,11 @@ align-self: 100%;
     .footer{
         flex-direction: column;
         text-align: center;
+        padding: 10px;
+    }
+
+    .foot-child2{
+        padding: 20px;
     }
 
     img{
