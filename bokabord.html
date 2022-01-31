@@ -68,12 +68,48 @@
 
   <legend> Boka bord</legend>
 <br>
-  <form> 
+<form onsubmit="myFunction()">
     
     <label for="date">Datum</label>
 <br>
     <input type="date" name="date" id="date" min="2022-01-21" value="ÅÅÅÅ-MM-DD">
 <br><br>
+<label for="tid">Klockan:</label> <!-- Drop down ruta-->
+        <select id="tid" name="tid">
+          <option value="åtta">08:00</option>
+          <option value="åtta">08:30</option>
+          <option value="nio">09:00</option>
+          <option value="nio">09:30</option>
+          <option value="tio">10:00</option>
+          <option value="nio">10:30</option>
+          <option value="elva">11:00</option>
+          <option value="elva">11:30</option>
+          <option value="tolv">12:00</option>
+          <option value="tolv">12:30</option>
+          <option value="tretton">13:00</option>
+          <option value="tretton">13:30</option>
+          <option value="fjorton">14:00</option>
+          <option value="fjorton">14:30</option>
+          <option value="femton">15:00</option>
+          <option value="femton">15:30</option>
+          <option value="sexton">16:00</option>
+          <option value="sexton">16:30</option>
+        </select>
+<br><br>    
+    <label for="antal">Antal personer:</label> <!-- Drop down ruta-->
+        <select id="antal" name="antal">
+          <option value="ett">1</option>
+          <option value="två">2</option>
+          <option value="tre">3</option>
+          <option value="fyra">4</option>
+          <option value="fem">5</option>
+          <option value="sex">6</option>
+          <option value="sju">7</option>
+          <option value="åtta">8</option>
+          <option value="nio">9</option>
+          <option value="tio">10</option>
+        </select>
+<br><br>    
     
     <label for="fname">Förnamn:</label>
 <br />
@@ -94,27 +130,15 @@
     <input type="nummer" id="nummer" name="lname" value="Telefonnummer" />
 <br /><br />
 
-        <label for="antal">Antal personer:</label> <!-- Drop down ruta-->
-        <select id="antal" name="antal">
-          <option value="ett">1</option>
-          <option value="två">2</option>
-          <option value="tre">3</option>
-          <option value="fyra">4</option>
-          <option value="fem">5</option>
-          <option value="sex">6</option>
-          <option value="sju">7</option>
-          <option value="åtta">8</option>
-          <option value="nio">9</option>
-          <option value="tio">10</option>
-        </select>
-<br><br>    
         <!-- Textruta -->
         <label for=”textBody”>Övrigt vi bör känna till?</label> <br /> 
         <textarea name=”txtBody” id=”textBody” cols=”50” rows=”10”> </textarea>
 <br><br>
-        <input type="submit">
+
+  <input type="submit">
+
         <br><br>
-    </form>
+      </form>
     </fieldset>
 </div> <!-- Slut på child 1 -->
 
@@ -158,6 +182,8 @@
     </div> <!-- Slut på Container Parent -->
 
 </footer> <!-- Slut på footer -->
+
+<script src="javascript.js">javaScript</script>
 </body>
 
 </html>

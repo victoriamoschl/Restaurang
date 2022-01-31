@@ -74,6 +74,18 @@ body{
     display: block;
 }
 
+#switch{
+    display: flex;
+    padding: 60px;  
+    background-color: rgb(173, 127, 226); 
+    color:rgb(240, 250, 127);
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0;
+    border: 10px solid rgb(69, 75, 249);
+}
+
 .content{
     display: flex;
     padding: 60px;  
@@ -115,7 +127,7 @@ h2{ font-size: 30px;}
     display: flex; justify-content: space-around;
     padding: 10px;  
     background-color: rgb(2, 121, 105); 
-    border:rgb(196, 110, 253) solid 5px;
+    border: 15px solid rgb(196, 110, 253);
     color: antiquewhite; 
     padding: 20px;
 }
@@ -189,6 +201,10 @@ align-self: 100%;
         flex: 50%;
     }
     
+    .bokabord-parent{
+        display: flex;  
+       flex-direction: column;
+    }
 }
 
 @media (max-width:725px) {
@@ -213,6 +229,12 @@ align-self: 100%;
         font-size: 30px;
     }
 
+#switch{
+    display: flex;
+    font-size: 25px;
+    padding: 30px;
+}
+
     .content{
         flex-direction: column;
         text-align: center;
@@ -221,7 +243,6 @@ align-self: 100%;
     .bokabord-parent{
         display: flex;  
        flex-direction: column;
-    
     }
 
     .footer{
@@ -251,6 +272,14 @@ align-self: 100%;
         font-size: 20px;
         padding: 10px;
     }
+
+    #switch{
+        display: flex;
+        font-size: 18px;
+        padding: 20px;
+        border: 5px solid rgb(69, 75, 249);
+    }
+
     .content{
         flex-direction: column;
         text-align: center;
