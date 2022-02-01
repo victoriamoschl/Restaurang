@@ -8,15 +8,15 @@ function myFunction(){
 const hour = new Date().getHours(); 
 let message;
 switch (hour) {
-    case 7, 8, 9, 10:
+    case 7: case 8: case 9: case 10:
         message = "God Morgon! Är du sugen på supergod frukost?";
         break;
         
-    case 11, 12, 13:
+    case 11: case 12: case 13:
         message = "God dag! Sugen på supergod brunch eller lunch?";
         break;
 
-    case 14, 15, 16:
+    case 14: case 15: case 16:
         message = "God Eftermiddag! Sugen på supergod och nyttig fika?";
         break;
 
