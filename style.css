@@ -77,23 +77,23 @@ body{
 #switch{
     display: flex;
     padding: 60px;  
+    margin: 0;
     background-color: rgb(173, 127, 226); 
     color:rgb(240, 250, 127);
+    border: 10px solid rgb(69, 75, 249);
     font-size: 40px;
     font-weight: bolder;
     text-align: center;
-    margin: 0;
-    border: 10px solid rgb(69, 75, 249);
 }
 
 .content{
     display: flex;
     padding: 60px;  
     background-color: antiquewhite; 
-    font-size: 20px;
+    font-size: 22px;
 }
 
-h2{ font-size: 30px;}
+h2{ font-size: 35px;}
 
 .cont-child1{
     flex: 1;

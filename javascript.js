@@ -4,8 +4,8 @@ function myFunction(){
     alert("Din bokning är nu skickad!")
 }
 
-//switch sats - som sätter case efter tiden på dygnet - använda till restaurangen
-const hour = new Date().getHours(); // med new date skapar vi en egen behållare i hour för vår tid, ny instans
+//switch sats - som sätter case efter tiden på dygnet 
+const hour = new Date().getHours(); 
 let message;
 switch (hour) {
     case 7, 8, 9, 10:
