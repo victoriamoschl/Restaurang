@@ -9,7 +9,7 @@ const hour = new Date().getHours();
 let message;
 switch (hour) {
     case 7: case 8: case 9: case 10:
-        message = "God Morgon! Är du sugen på supergod frukost?";
+        message = "God Morgon! Är du sugen på en supergod frukost?";
         break;
         
     case 11: case 12: case 13:
