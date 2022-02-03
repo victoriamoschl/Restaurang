@@ -75,7 +75,7 @@ body{
 }
 
 #switch{
-    display: flex;justify-content: center;
+    display: flex; justify-content: center;
     padding: 60px;  
     margin: 0;
     background-color: rgb(173, 127, 226); 
